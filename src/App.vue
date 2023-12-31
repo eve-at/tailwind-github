@@ -2,6 +2,10 @@
 import Chevron from "./components/Chevron.vue"
 import RoundedGroup from "./components/RoundedGroup.vue";
 import MainMenu from "./components/MainMenu.vue";
+import TagMenuElement from "./components/TagMenuElement.vue";
+import ContainerMenu from "./components/ContainerMenu.vue";
+import CommitsContainer from "./components/CommitsContainer.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
@@ -45,7 +49,7 @@ import MainMenu from "./components/MainMenu.vue";
           <Chevron />
         </a>
         <a href="#" class="flex items-center hover:text-gray-400">
-          <img class="w-6 h-6 rounded-full" src="https://avatars.githubusercontent.com/u/55398804?v=4" alt="" size="32" height="32" width="32" data-view-component="true">
+          <img class="w-6 h-6 rounded-full border border-gray-600" src="https://avatars.githubusercontent.com/u/55398804?v=4" alt="" size="32" height="32" width="32" data-view-component="true">
           <Chevron />
         </a>
       </div>
@@ -85,5 +89,23 @@ import MainMenu from "./components/MainMenu.vue";
     </div> <!-- end repo-stats -->
 
     <MainMenu />
+
+    <div class="container mx-auto my-8 px-4 flex">
+      <div class="file-explorer w-3/4 mr-8">
+        <ContainerMenu />
+        <CommitsContainer />
+        <div class="readme-container border border-b-gray-300 rounded-md px-4 py-2 mt-4">
+          <h4 class="font-semibold">README.md</h4>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, id commodi dolore pariatur ratione, cumque veritatis ex quaerat laboriosam qui, iste sequi maiores ut vero provident maxime laudantium consequuntur aliquam!
+          </div>
+        </div>
+      </div>
+      <div class="sidebar w-1/4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, id commodi dolore pariatur ratione, cumque veritatis ex quaerat laboriosam qui, iste sequi maiores ut vero provident maxime laudantium consequuntur aliquam!
+      </div>      
+    </div>
+
+    <Footer />
   </div>
 </template>

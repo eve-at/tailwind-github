@@ -2,9 +2,10 @@
 import Chevron from "./components/Chevron.vue"
 import RoundedGroup from "./components/RoundedGroup.vue";
 import MainMenu from "./components/MainMenu.vue";
-import TagMenuElement from "./components/TagMenuElement.vue";
+import TagElement from "./components/TagElement.vue";
 import ContainerMenu from "./components/ContainerMenu.vue";
 import CommitsContainer from "./components/CommitsContainer.vue";
+import Sidebar from "./components/Sidebar.vue";
 import Footer from "./components/Footer.vue";
 </script>
 
@@ -102,7 +103,7 @@ import Footer from "./components/Footer.vue";
         </div>
       </div>
       <div class="sidebar w-1/4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, id commodi dolore pariatur ratione, cumque veritatis ex quaerat laboriosam qui, iste sequi maiores ut vero provident maxime laudantium consequuntur aliquam!
+        <Sidebar />
       </div>      
     </div>
 

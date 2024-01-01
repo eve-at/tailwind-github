@@ -27,10 +27,10 @@ defineProps({
             </svg>
             <a href="#" v-text="name" class="text-sm hover:underline hover:text-blue-600"></a>
         </div>
-        <div class="w-6/12">
+        <div class="hidden lg:block w-6/12">
             <a href="#" v-text="desc" class="text-sm hover:underline hover:text-blue-600"></a>
         </div>
-        <div class="w-2/12 text-right">
+        <div class="w-4/12 lg:w-2/12 text-right">
             <span v-text="timestamp" class="text-sm whitespace-nowrap"></span>
         </div>
     </div>

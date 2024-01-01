@@ -70,9 +70,38 @@ import TagElement from './TagElement.vue';
         </div>
     </SidebarGroup>
     <SidebarGroup title="Contributors" count="115">
-        <!-- TODO: contributors -->
+        <div class="mt-4 flex flex-wrap mr-2">
+            <a href="#"><img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/32?img=9" alt="avatar" /></a>
+            <a href="#"><img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/32?img=10" alt="avatar" /></a>
+            <a href="#"><img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/32?img=11" alt="avatar" /></a>
+            <a href="#"><img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/32?img=12" alt="avatar" /></a>
+            <a href="#"><img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/32?img=13" alt="avatar" /></a>
+            <a href="#"><img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/32?img=14" alt="avatar" /></a>
+            <a href="#"><img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/32?img=15" alt="avatar" /></a>
+            <a href="#"><img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/32?img=16" alt="avatar" /></a>
+            <a href="#"><img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/32?img=17" alt="avatar" /></a>
+            <a href="#"><img class="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/32?img=18" alt="avatar" /></a>
+        </div>
+        <div class="mt-6">
+            <a href="#" class="text-blue-500 hover:underline text-sm">+ 104 contributors</a>
+        </div>
     </SidebarGroup>
     <SidebarGroup title="Languages">
-        <!-- TODO: languages -->
+        <div class="flex mt-4">
+            <div class="w-11/12 h-2 rounded-md rounded-r-none bg-purple-700"></div>
+            <div class="w-1/12 h-2 rounded-md rounded-l-none bg-yellow-400"></div>
+        </div>
+        <ul class="mt-2 flex space-x-4 items-center text-xs">
+            <li class="flex items-center space-x-1">
+                <span class="w-2 h-2 rounded-full bg-purple-700"></span>
+                <span class="font-semibold">CSS </span>
+                <span>93.9%</span>
+            </li>
+            <li class="flex items-center space-x-1">
+                <span class="w-2 h-2 rounded-full bg-yellow-400"></span>
+                <span class="font-semibold">JavaScript </span>
+                <span>6.1%</span>
+            </li>
+        </ul>
     </SidebarGroup>
 </template>
